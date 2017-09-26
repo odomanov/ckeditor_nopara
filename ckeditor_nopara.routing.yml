@@ -1,0 +1,7 @@
+ckeditor_nopara.content:
+  path: '/nopara'
+  defaults:
+    _controller: '\Drupal\ckeditor_nopara\Controller\CKEditorNoParaController::content'
+    _title: 'Hello World - CKEditorNoPara'
+  requirements:
+    _permission: 'access content'

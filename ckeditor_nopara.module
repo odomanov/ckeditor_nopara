@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Implements hook_editor_js_settings_alter
+ */
+function ckeditor_nopara_editor_js_settings_alter(array &$settings) {
+  foreach ($settings['editor']['formats'] as $name => $value) {
+    $settings['editor']['formats'][$name]['editorSettings']['autoParagraph'] = false;
+  }
+}

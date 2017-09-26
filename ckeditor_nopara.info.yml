@@ -1,0 +1,6 @@
+name: NoParagraphs in CKEditor
+type: module
+description: Set autoParagraph = false in CKEditor.
+package: User Interface
+version: 1.0
+core: 8.x
