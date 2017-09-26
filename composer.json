@@ -1,0 +1,19 @@
+{
+    "name": "odomanov/ckeditor_nopara",
+    "description": "Drupal module to set autoParagraph = false in CKEditor.",
+    "keywords": ["ckeditor", "drupal"],
+    "license": "GPL-2.0+", 
+    "authors": [
+        {
+            "name": "Oleg Domanov",
+            "email": "odomanov@yandex.ru"
+        }
+    ],
+    "type": "drupal-custom-module",
+    "require": { },
+	"autoload": {
+        "psr-4": {
+            "ODomanov\\CKEditorNoPara\\": "src/"
+        }
+    }
+}
